@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Job Splitter</name>
+  <author>Fuglypump</author>
+  <targetVersion>0.18.1722</targetVersion>
+  <description>Job Splitter [B18]
+
+Load Order: Put this mod at the VERY BOTTOM of your load order, this mod has a lot of patch operations that interact with parts of other mods that most likely require load order to function properly.
+
+Yet another mod that splits up jobs into smaller jobs for the sake of micromanaging everything. 
+With this mod you can manage your colony in ways that you can't normally do in vanilla, like setting your best doctor to be the only one who performs surgery, or assigning a pawn to become a dedicated stonecutter or smelter without them doing the other. 
+This mod really adds a ton of different roles that colonists can fill.</description>
+</ModMetaData>

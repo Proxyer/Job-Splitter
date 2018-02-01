@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Combat Extended -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Combat Extended</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Combat Extended" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "ReloadTurrets"]/workType</xpath>
+				<value>
+					<workType>Rearming</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Cupro's Drinks - Core -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Cupro's Drinks - Core</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Cupro's Drinks - Core" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "CPD_DoBillsDrinksTable"]/workType</xpath>
+				<value>
+					<workType>Brewing</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Cupro's Drinks - Alcohol -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Cupro's Drinks - Alcohol</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Cupro's Drinks - Alcohol" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "CPD_WorkGiver_TakeAlcoholOutOfAlcoholBarrel" or defName = "CPD_WorkGiver_FillAlcoholBarrel"]/workType</xpath>
+				<value>
+					<workType>Brewing</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- VGP Garden Drinks -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>VGP Garden Drinks</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "VGP Garden Drinks" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "VG_WorkGiver_FillUniversalFermenter" or defName = "VG_WorkGiver_TakeProductOutOfUniversalFermenter"]/workType</xpath>
+				<value>
+					<workType>Brewing</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- VGP Garden Tools -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>VGP Garden Tools</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "VGP Garden Tools" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "VG_WorkGiver_FillUniversalFermenter" or defName = "VG_WorkGiver_TakeProductOutOfUniversalFermenter"]/workType</xpath>
+				<value>
+					<workType>Brewing</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- VGP Garden Gourmet -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>VGP Garden Gourmet</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "VGP Garden Gourmet" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "GG_WorkGiver_FillUniversalFermenter" or defName = "GG_WorkGiver_TakeProductOutOfUniversalFermenter"]/workType</xpath>
+				<value>
+					<workType>Brewing</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!-- Fluffy Breakdowns -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Fluffy Breakdowns</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Fluffy Breakdowns" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "FluffyBreakdowns_Maintenance"]/workType</xpath>
+				<value>
+					<workType>Repairing</workType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "FluffyBreakdowns_Maintenance"]/priorityInType</xpath>
+				<value>
+					<priorityInType>75</priorityInType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Dubs Rimkit -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Dubs Rimkit</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Dubs Rimkit" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "FixBrokenDownBuildingWithKit"]/workType</xpath>
+				<value>
+					<workType>Repairing</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Expanded Roofing -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Expanded Roofing</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Expanded Roofing" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "PerformRoofMaintenance"]/workType</xpath>
+				<value>
+					<workType>Repairing</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Misc. Bees'n'Honey -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Misc. Bees'n'Honey</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Misc. Bees'n'Honey" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "GetHoney"]/workType</xpath>
+				<value>
+					<workType>Harvesting</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Refactored Work Priorities -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Refactored Work Priorities</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Refactored Work Priorities" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "HarvestYieldingPlants"]/workType</xpath>
+				<value>
+					<workType>Harvesting</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Omni Core Drill -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Omni Core Drill</modName>
+				<altModNames>
+					<li>Omni Core Drill B17</li>
+					<li>Omni Core Drill B18</li>
+				</altModNames>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Omni Core Drill" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "DoBillsCoreMine"]/workType</xpath>
+				<value>
+					<workType>Drilling</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Smokeleaf Industry -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Smokeleaf Industry</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Smokeleaf Industry" detected, updating WorkGivers.</customMessageSuccess>
+			</li>					
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "DoBillsCultivationBench" or defName = "DoBillsAutoTrimmer" or defName = "DoBillsProduceMedicinals"]/workType</xpath>
+				<value>
+					<workType>Drugs</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Drug Overhaul -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Drug Overhaul</modName>
+				<altModNames>
+					<li>Drug Overhaul A18</li>
+					<li>Drug Overhaul B18</li>
+				</altModNames>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Drug Overhaul" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "MakeMethAtADVDrug"]/workType</xpath>
+				<value>
+					<workType>Drugs</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Butchering Spot -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Butchering Spot</modName>
+				<yourMod>Job Splitter</yourMod>
+				<customMessageSuccess>Job Splitter: Mod named "Butchering Spot" detected, updating WorkGivers.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/WorkGiverDef[defName = "DoBillsButcherFleshSpot"]/workType</xpath>
+				<value>
+					<workType>Butchering</workType>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+
+</Patch>

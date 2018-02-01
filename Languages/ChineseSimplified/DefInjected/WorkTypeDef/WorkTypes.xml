@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Surgeon -->
+
+  <Surgeon.label>手术</Surgeon.label>
+  <Surgeon.description>为人类或动物做手术。</Surgeon.description>
+  <Surgeon.labelShort>手术</Surgeon.labelShort>
+  <Surgeon.pawnLabel>主刀医生</Surgeon.pawnLabel>
+  <Surgeon.gerundLabel>手术中</Surgeon.gerundLabel>
+  <Surgeon.verb>手术</Surgeon.verb>
+
+
+  <!-- Nursing -->
+
+  <Nursing.label>护理</Nursing.label>
+  <Nursing.description>帮助医生照顾、喂食并搬运病人。</Nursing.description>
+  <Nursing.labelShort>护理</Nursing.labelShort>
+  <Nursing.pawnLabel>护士</Nursing.pawnLabel>
+  <Nursing.gerundLabel>护理中</Nursing.gerundLabel>
+  <Nursing.verb>护理</Nursing.verb>
+
+
+  <!-- Feeding -->
+
+  <Feeding.label>喂食</Feeding.label>
+  <Feeding.description>将食物带给囚犯和卧病在床的病人。</Feeding.description>
+  <Feeding.labelShort>喂食</Feeding.labelShort>
+  <Feeding.pawnLabel>喂食者</Feeding.pawnLabel>
+  <Feeding.gerundLabel>喂食中</Feeding.gerundLabel>
+  <Feeding.verb>喂食</Feeding.verb>
+
+
+  <!-- Rearming -->
+
+  <Rearming.label>重置陷阱</Rearming.label>
+  <Rearming.description>重置已经被触发的陷阱。</Rearming.description>
+  <Rearming.labelShort>重置陷阱</Rearming.labelShort>
+  <Rearming.pawnLabel>陷阱重置人</Rearming.pawnLabel>
+  <Rearming.gerundLabel>重置陷阱中</Rearming.gerundLabel>
+  <Rearming.verb>重置</Rearming.verb>
+
+
+  <!-- Refueling -->
+
+  <Refueling.label>补充燃料</Refueling.label>
+  <Refueling.description>为耗尽燃料的物品添加燃料。</Refueling.description>
+  <Refueling.labelShort>补充燃料</Refueling.labelShort>
+  <Refueling.pawnLabel>补充燃料者</Refueling.pawnLabel>
+  <Refueling.gerundLabel>补充燃料中</Refueling.gerundLabel>
+  <Refueling.verb>补充燃料</Refueling.verb>
+
+
+  <!-- Taming -->
+
+  <Taming.label>驯兽</Taming.label>
+  <Taming.description>驯化野生动物。</Taming.description>
+  <Taming.labelShort>驯服</Taming.labelShort>
+  <Taming.pawnLabel>驯兽师</Taming.pawnLabel>
+  <Taming.gerundLabel>驯服中</Taming.gerundLabel>
+  <Taming.verb>驯服</Taming.verb>
+
+
+  <!-- Training -->
+
+  <Training.label>训练</Training.label>
+  <Training.description>训练已被驯化的动物。</Training.description>
+  <Training.labelShort>训练</Training.labelShort>
+  <Training.pawnLabel>训练员</Training.pawnLabel>
+  <Training.gerundLabel>训练中</Training.gerundLabel>
+  <Training.verb>训练</Training.verb>
+
+
+  <!-- Butchering -->
+
+  <Butchering.label>屠宰</Butchering.label>
+  <Butchering.description>屠宰尸体并制作饲料。</Butchering.description>
+  <Butchering.labelShort>屠宰</Butchering.labelShort>
+  <Butchering.pawnLabel>屠夫</Butchering.pawnLabel>
+  <Butchering.gerundLabel>屠宰中</Butchering.gerundLabel>
+  <Butchering.verb>屠宰</Butchering.verb>
+
+
+  <!-- Brewing -->
+
+  <Brewing.label>酿造</Brewing.label>
+  <Brewing.description>用啤酒花酿造麦芽汁，并将其填入发酵桶中。</Brewing.description>
+  <Brewing.labelShort>酿造</Brewing.labelShort>
+  <Brewing.pawnLabel>酿酒师</Brewing.pawnLabel>
+  <Brewing.gerundLabel>酿造中</Brewing.gerundLabel>
+  <Brewing.verb>酿造</Brewing.verb>
+
+
+  <!-- Repairing -->
+
+  <Repairing.label>修理</Repairing.label>
+  <Repairing.description>修理坏掉的建筑或物品。</Repairing.description>
+  <Repairing.labelShort>修理</Repairing.labelShort>
+  <Repairing.pawnLabel>修理工</Repairing.pawnLabel>
+  <Repairing.gerundLabel>修理中</Repairing.gerundLabel>
+  <Repairing.verb>修理</Repairing.verb>
+
+
+  <!-- Demolition -->
+
+  <Demolition.label>拆除</Demolition.label>
+  <Demolition.description>拆除或卸载建筑和物品。</Demolition.description>
+  <Demolition.labelShort>拆除</Demolition.labelShort>
+  <Demolition.pawnLabel>拆迁队</Demolition.pawnLabel>
+  <Demolition.gerundLabel>拆迁中</Demolition.gerundLabel>
+  <Demolition.verb>拆除</Demolition.verb>
+
+
+  <!-- Harvesting -->
+
+  <Harvesting.label>收获</Harvesting.label>
+  <Harvesting.description>收获成熟的农作物。</Harvesting.description>
+  <Harvesting.labelShort>收获</Harvesting.labelShort>
+  <Harvesting.pawnLabel>收获者</Harvesting.pawnLabel>
+  <Harvesting.gerundLabel>收获中</Harvesting.gerundLabel>
+  <Harvesting.verb>收获</Harvesting.verb>
+
+
+  <!-- Drilling -->
+
+  <Drilling.label>钻探</Drilling.label>
+  <Drilling.description>使用深钻井钻探资源。</Drilling.description>
+  <Drilling.labelShort>钻探</Drilling.labelShort>
+  <Drilling.pawnLabel>深井矿工</Drilling.pawnLabel>
+  <Drilling.gerundLabel>钻探中</Drilling.gerundLabel>
+  <Drilling.verb>钻探</Drilling.verb>
+
+
+  <!-- Drugs -->
+
+  <Drugs.label>制药</Drugs.label>
+  <Drugs.description>制造药物。</Drugs.description>
+  <Drugs.labelShort>制药</Drugs.labelShort>
+  <Drugs.pawnLabel>药剂师</Drugs.pawnLabel>
+  <Drugs.gerundLabel>制药中</Drugs.gerundLabel>
+  <Drugs.verb>制药</Drugs.verb>
+
+
+  <!-- Assembling -->
+
+  <Assembling.label>组装</Assembling.label>
+  <Assembling.description>在零件装配台上组装零件。</Assembling.description>
+  <Assembling.labelShort>组装。</Assembling.labelShort>
+  <Assembling.pawnLabel>工匠</Assembling.pawnLabel>
+  <Assembling.gerundLabel>组装中</Assembling.gerundLabel>
+  <Assembling.verb>组装</Assembling.verb>
+
+
+  <!-- Refine -->
+
+  <Refining.label>精炼</Refining.label>
+  <Refining.description>在精炼设备上将原材料转化为化合燃料</Refining.description>
+  <Refining.labelShort>精炼</Refining.labelShort>
+  <Refining.pawnLabel>精炼工</Refining.pawnLabel>
+  <Refining.gerundLabel>精炼中</Refining.gerundLabel>
+  <Refining.verb>精炼</Refining.verb>
+
+
+  <!-- Stonecutting -->
+
+  <Stonecutting.label>切割石砖</Stonecutting.label>
+  <Stonecutting.description>将石块切成砖块。</Stonecutting.description>
+  <Stonecutting.labelShort>切割石砖</Stonecutting.labelShort>
+  <Stonecutting.pawnLabel>切石工</Stonecutting.pawnLabel>
+  <Stonecutting.gerundLabel>切割石砖中</Stonecutting.gerundLabel>
+  <Stonecutting.verb>切割石砖</Stonecutting.verb>
+
+
+  <!-- Smelting -->
+
+  <Smelting.label>熔炼</Smelting.label>
+  <Smelting.description>从各种物品中提取可用金属。</Smelting.description>
+  <Smelting.labelShort>熔炼</Smelting.labelShort>
+  <Smelting.pawnLabel>熔炼工</Smelting.pawnLabel>
+  <Smelting.gerundLabel>熔炼中</Smelting.gerundLabel>
+  <Smelting.verb>熔炼</Smelting.verb>
+
+
+  <!-- Preparing -->
+
+  <Preparing.label>准备</Preparing.label>
+  <Preparing.description>Haul building materials to blueprints and unfinished buildings.</Preparing.description>
+  <Preparing.labelShort>准备</Preparing.labelShort>
+  <Preparing.pawnLabel>跑腿的</Preparing.pawnLabel>
+  <Preparing.gerundLabel>跑腿中</Preparing.gerundLabel>
+  <Preparing.verb>取货</Preparing.verb>
+
+
+  <!-- Loading -->
+
+  <Loading.label>装卸</Loading.label>
+  <Loading.description>为商队和运输仓装卸货物。</Loading.description>
+  <Loading.labelShort>装卸</Loading.labelShort>
+  <Loading.pawnLabel>搬运工</Loading.pawnLabel>
+  <Loading.gerundLabel>装卸</Loading.gerundLabel>
+  <Loading.verb>装卸</Loading.verb>
+
+
+  <!-- Mortican -->
+
+  <Mortician.label>殡仪</Mortician.label>
+  <Mortician.description>焚化或埋葬尸体。</Mortician.description>
+  <Mortician.labelShort>殡仪</Mortician.labelShort>
+  <Mortician.pawnLabel>殡仪员</Mortician.pawnLabel>
+  <Mortician.gerundLabel>超度</Mortician.gerundLabel>
+  <Mortician.verb>超度</Mortician.verb>
+
+
+</LanguageData>

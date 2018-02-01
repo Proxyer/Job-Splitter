@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Surgeon -->
+
+	<WorkTypeDef>
+		<defName>Surgeon</defName>
+		<labelShort>Surgeon</labelShort>
+		<pawnLabel>Surgeon</pawnLabel>
+		<gerundLabel>Operating</gerundLabel>
+		<description>Perform surgeries on human-likes and animals.</description>
+		<verb>Operate on</verb>
+		<naturalPriority>1305</naturalPriority>
+		<relevantSkills>
+			<li>Medicine</li>
+		</relevantSkills>
+		<workTags>
+			<li>Caring</li>
+		</workTags>
+		<alwaysStartActive>false</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+
+  <!-- Nursing -->
+
+	<WorkTypeDef>
+		<defName>Nursing</defName>
+		<labelShort>Nurse</labelShort>
+		<pawnLabel>Nurse</pawnLabel>
+		<gerundLabel>Nursing</gerundLabel>
+		<description>Assists doctors by feeding, visiting and moving patients.</description>
+		<verb>Nurse</verb>
+		<naturalPriority>1290</naturalPriority>
+		<workTags>
+			<li>Caring</li>
+		</workTags>
+		<alwaysStartActive>false</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+
+  <!-- Feeding -->	
+	
+	<WorkTypeDef>
+		<defName>Feeding</defName>
+		<labelShort>Feed</labelShort>
+		<pawnLabel>Feeder</pawnLabel>
+		<gerundLabel>Feeding</gerundLabel>
+		<description>Take meals to prisoners and to the sick resting in bed.</description>
+		<verb>Feed</verb>
+		<naturalPriority>1280</naturalPriority>
+		<workTags>
+			<li>Caring</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Rearming -->
+
+	<WorkTypeDef>
+		<defName>Rearming</defName>
+		<labelShort>Rearm</labelShort>
+		<pawnLabel>Rearmer</pawnLabel>
+		<gerundLabel>Rearming</gerundLabel>
+		<description>Rearm traps that have been triggered.</description>
+		<verb>Rearm</verb>
+		<naturalPriority>1135</naturalPriority>
+		<workTags>
+			<li>Hauling</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Refueling -->
+	
+	<WorkTypeDef>
+		<defName>Refueling</defName>
+		<labelShort>Refuel</labelShort>
+		<pawnLabel>Refueler</pawnLabel>
+		<gerundLabel>Refueling</gerundLabel>
+		<description>Refuel things that run on fuel.</description>
+		<verb>Refuel</verb>
+		<naturalPriority>1130</naturalPriority>
+		<workTags>
+			<li>Hauling</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+
+	<!-- Taming -->
+	
+	<WorkTypeDef>
+		<defName>Taming</defName>
+		<labelShort>Tame</labelShort>
+		<pawnLabel>Tamer</pawnLabel>
+		<gerundLabel>Taming</gerundLabel>
+		<description>Tame wild animals.</description>
+		<verb>Train</verb>
+		<naturalPriority>1045</naturalPriority>
+		<relevantSkills>
+			<li>Animals</li>
+		</relevantSkills>
+		<workTags>
+			<li>Animals</li>
+		</workTags>
+		<alwaysStartActive>false</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Training -->
+	
+	<WorkTypeDef>
+		<defName>Training</defName>
+		<labelShort>Train</labelShort>
+		<pawnLabel>Trainer</pawnLabel>
+		<gerundLabel>Training</gerundLabel>
+		<description>Train domesticated animals.</description>
+		<verb>Train</verb>
+		<naturalPriority>1040</naturalPriority>
+		<relevantSkills>
+			<li>Animals</li>
+		</relevantSkills>
+		<workTags>
+			<li>Animals</li>
+		</workTags>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>	
+ 
+	<!-- Butchering -->
+
+	<WorkTypeDef>
+		<defName>Butchering</defName>
+		<labelShort>Butcher</labelShort>
+		<pawnLabel>Butcherer</pawnLabel>
+		<gerundLabel>Butchering</gerundLabel>
+		<description>Butcher meat and create kibble.</description>
+		<verb>Butcher</verb>
+		<naturalPriority>1005</naturalPriority>
+		<relevantSkills>
+			<li>Cooking</li>
+		</relevantSkills>
+	    <workTags>
+	      <li>Cooking</li>
+	      <li>ManualSkilled</li>
+    	</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+ 
+  	<!-- Brewing -->
+
+	<WorkTypeDef>
+		<defName>Brewing</defName>
+		<labelShort>Brew</labelShort>
+		<pawnLabel>Brewer</pawnLabel>
+		<gerundLabel>Brewing</gerundLabel>
+		<description>Create wort from hops, fill and empty fermenting barrels.</description>
+		<verb>Brew</verb>
+		<naturalPriority>990</naturalPriority>
+		<relevantSkills>
+			<li>Cooking</li>
+		</relevantSkills>
+	    <workTags>
+	      <li>Cooking</li>
+	      <li>ManualDumb</li>
+	      <li>Hauling</li>
+    	</workTags>
+		<alwaysStartActive>false</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Repairing -->
+	
+	<WorkTypeDef>
+		<defName>Repairing</defName>
+		<labelShort>Repair</labelShort>
+		<pawnLabel>Repairer</pawnLabel>
+		<gerundLabel>Repairing</gerundLabel>
+		<description>Repair damaged or broken-down buildings/objects.</description>
+		<verb>Repair</verb>
+		<naturalPriority>910</naturalPriority>
+		<relevantSkills>
+			<li>Construction</li>
+		</relevantSkills>
+		<workTags>
+			<li>ManualSkilled</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Demolition -->
+	
+	<WorkTypeDef>
+		<defName>Demolition</defName>
+		<labelShort>Demo</labelShort>
+		<pawnLabel>Demolitionist</pawnLabel>
+		<gerundLabel>Demolishing</gerundLabel>
+		<description>Uninstall or deconstruct buildings/objects.</description>
+		<verb>Demolish</verb>
+		<naturalPriority>905</naturalPriority>
+		<relevantSkills>
+			<li>Construction</li>
+		</relevantSkills>
+		<workTags>
+			<li>ManualSkilled</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Harvesting -->
+	
+	<WorkTypeDef>
+		<defName>Harvesting</defName>
+		<labelShort>Harvest</labelShort>
+		<pawnLabel>Harvester</pawnLabel>
+		<gerundLabel>Harvesting</gerundLabel>
+		<description>Harvest grown crops.</description>
+		<verb>Harvest</verb>
+		<naturalPriority>710</naturalPriority>
+		<relevantSkills>
+			<li>Growing</li>
+		</relevantSkills>
+		<workTags>
+			<li>ManualSkilled</li>
+			<li>PlantWork</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Drilling -->
+
+	<WorkTypeDef>
+		<defName>Drilling</defName>
+		<labelShort>Drill</labelShort>
+		<pawnLabel>Driller</pawnLabel>
+		<gerundLabel>Drilling</gerundLabel>
+		<description>Use deep drills to drill for resources.</description>
+		<verb>Drill</verb>
+		<naturalPriority>595</naturalPriority>
+		<relevantSkills>
+			<li>Mining</li>
+		</relevantSkills>
+		<workTags>
+			<li>ManualSkilled</li>
+			<li>Mining</li>
+		</workTags>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+
+	<!-- Drugs -->
+	
+	<WorkTypeDef>
+		<defName>Drugs</defName>
+		<labelShort>Drugs</labelShort>
+		<pawnLabel>Apothecary</pawnLabel>
+		<gerundLabel>Crafting drugs</gerundLabel>
+		<description>Craft drugs.</description>
+		<verb>Craft</verb>
+		<naturalPriority>485</naturalPriority>
+		<relevantSkills>
+			<li>Intellectual</li>
+		</relevantSkills>
+		<workTags>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+		</workTags>
+		<alwaysStartActive>false</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+
+	<!-- Assembling -->
+
+	<WorkTypeDef>
+		<defName>Assembling</defName>
+		<labelShort>Assemble</labelShort>
+		<pawnLabel>Assembler</pawnLabel>
+		<gerundLabel>Assembling</gerundLabel>
+		<description>Craft at a component assembly bench.</description>
+		<verb>Assemble</verb>
+		<naturalPriority>480</naturalPriority>
+		<relevantSkills>
+			<li>Crafting</li>
+		</relevantSkills>
+		<workTags>
+			<li>Crafting</li>
+			<li>ManualSkilled</li>
+		</workTags>
+		<alwaysStartActive>false</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Refine -->
+	
+	<WorkTypeDef>
+		<defName>Refining</defName>
+		<labelShort>Refine</labelShort>
+		<pawnLabel>Refiner</pawnLabel>
+		<gerundLabel>Refining</gerundLabel>
+		<description>Refine materials into chemfuel at a refinery.</description>
+		<verb>Refine</verb>
+		<naturalPriority>420</naturalPriority>
+		<relevantSkills>
+			<li>Intellectual</li>
+		</relevantSkills>
+		<workTags>
+			<li>ManualDumb</li>
+			<li>Hauling</li>
+		</workTags>
+		<alwaysStartActive>false</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Stonecutting -->
+	
+	<WorkTypeDef>
+		<defName>Stonecutting</defName>
+		<labelShort>Stone cut</labelShort>
+		<pawnLabel>Stonecutter</pawnLabel>
+		<gerundLabel>cutting stone blocks</gerundLabel>
+		<description>Cut stone into blocks.</description>
+		<verb>stonecut</verb>
+		<naturalPriority>415</naturalPriority>
+		<relevantSkills>
+			<li>Crafting</li>
+		</relevantSkills>
+		<workTags>
+			<li>Crafting</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Smelting -->
+
+	<WorkTypeDef>
+		<defName>Smelting</defName>
+		<labelShort>Smelt</labelShort>
+		<pawnLabel>Smelter</pawnLabel>
+		<gerundLabel>Extract metal from item</gerundLabel>
+		<description>Extracts usable metal from slag chunks and other mixed metal items.</description>
+		<verb>Smelt</verb>
+		<naturalPriority>410</naturalPriority>
+		<relevantSkills>
+			<li>Crafting</li>
+		</relevantSkills>
+		<workTags>
+			<li>Crafting</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Preparing -->
+	
+	<WorkTypeDef>
+		<defName>Preparing</defName>
+		<labelShort>Prepare</labelShort>
+		<pawnLabel>Hauler</pawnLabel>
+		<gerundLabel>Preparing</gerundLabel>
+		<description>Haul building materials to blueprints and unfinished buildings.</description>
+		<verb>Load</verb>
+		<naturalPriority>315</naturalPriority>
+		<workTags>
+			<li>ManualDumb</li>
+			<li>Hauling</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Loading -->
+	
+	<WorkTypeDef>
+		<defName>Loading</defName>
+		<labelShort>Load</labelShort>
+		<pawnLabel>Loader</pawnLabel>
+		<gerundLabel>Loading</gerundLabel>
+		<description>Load and unload transport pods and caravans.</description>
+		<verb>Load</verb>
+		<naturalPriority>310</naturalPriority>
+		<workTags>
+			<li>ManualDumb</li>
+			<li>Hauling</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+	
+	<!-- Mortician -->
+	
+	<WorkTypeDef>
+		<defName>Mortician</defName>
+		<labelShort>Mortician</labelShort>
+		<pawnLabel>Mortician</pawnLabel>
+		<gerundLabel>Mortifying</gerundLabel>
+		<description>cremate and bury dead bodies.</description>
+		<verb>Mortify</verb>
+		<naturalPriority>305</naturalPriority>
+		<workTags>
+			<li>ManualDumb</li>
+			<li>Hauling</li>
+		</workTags>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>true</requireCapableColonist>
+	</WorkTypeDef>
+
+</Defs>

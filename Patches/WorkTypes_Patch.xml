@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+		<!-- Replace Tooltips (English only) -->
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Doctor"]/description</xpath>
+			<value>
+				<description>Treat the sick, bring them food and cheer them up. Doctors will care for both colonists and prisoners.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Handling"]/description</xpath>
+			<value>
+				<description>Harvest resources from and slaughter animals.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Cooking"]/description</xpath>
+			<value>
+				<description>Prepare meals.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Construction"]/description</xpath>
+			<value>
+				<description>Build things that you've designated.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Mining"]/description</xpath>
+			<value>
+				<description>Mining and digging.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Crafting"]/description</xpath>
+			<value>
+				<description>Do general low-skilled labor at work stations.</description>
+			</value>
+		</Operation>
+
+		
+		<!-- Patch vanilla growing to make it into sowing -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Growing"]/labelShort</xpath>
+			<value>
+				<labelShort>Sow</labelShort>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Growing"]/pawnLabel</xpath>
+			<value>
+				<pawnLabel>Sower</pawnLabel>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Growing"]/gerundLabel</xpath>
+			<value>
+				<gerundLabel>Sowing</gerundLabel>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Growing"]/description</xpath>
+			<value>
+				<description>Sow crops.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Growing"]/verb</xpath>
+			<value>
+				<verb>Sow</verb>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Growing"]/naturalPriority</xpath>
+			<value>
+				<naturalPriority>705</naturalPriority>
+			</value>
+		</Operation>
+		
+		
+		<!-- Growing is relevant to PlantCutting -->
+		
+		<Operation Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>*/WorkTypeDef[defName = "PlantCutting"]/relevantSkills</xpath>
+					<success>Invert</success>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/WorkTypeDef[defName = "PlantCutting"]</xpath>
+					<value>
+						<relevantSkills/>
+					</value>
+				</li>
+			</operations>
+		</Operation>
+
+		<Operation Class="PatchOperationAdd">
+			<xpath>*/WorkTypeDef[defName = "PlantCutting"]/relevantSkills</xpath>
+			<value>
+				<li>Growing</li>
+			</value>
+		</Operation>
+		
+</Patch>
