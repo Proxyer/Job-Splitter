@@ -263,10 +263,9 @@
 		<verb>Craft</verb>
 		<naturalPriority>485</naturalPriority>
 		<relevantSkills>
-			<li>Intellectual</li>
+			<li>Crafting</li>
 		</relevantSkills>
 		<workTags>
-			<li>Intellectual</li>
 			<li>ManualSkilled</li>
 		</workTags>
 		<alwaysStartActive>false</alwaysStartActive>
