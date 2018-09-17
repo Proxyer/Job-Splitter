@@ -44,6 +44,52 @@
 				<description>Do general low-skilled labor at work stations.</description>
 			</value>
 		</Operation>
+		
+		<!-- Patch handling to 1049 because negotiate is 1050 and i like this order better -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Handling"]/naturalPriority</xpath>
+				<value>
+					<naturalPriority>1049</naturalPriority>
+				</value>
+		</Operation>
+		
+		<!-- Patch vanilla construction to make it into building -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Construction"]/labelShort</xpath>
+			<value>
+				<labelShort>Build</labelShort>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Construction"]/pawnLabel</xpath>
+			<value>
+				<pawnLabel>Builder</pawnLabel>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Construction"]/gerundLabel</xpath>
+			<value>
+				<gerundLabel>Building</gerundLabel>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Construction"]/description</xpath>
+			<value>
+				<description>Build buildings.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Construction"]/verb</xpath>
+			<value>
+				<verb>Build</verb>
+			</value>
+		</Operation>
 
 		
 		<!-- Patch vanilla growing to make it into sowing -->
@@ -85,34 +131,58 @@
 		
 		<Operation Class="PatchOperationReplace">
 			<xpath>*/WorkTypeDef[defName = "Growing"]/naturalPriority</xpath>
+				<value>
+					<naturalPriority>705</naturalPriority>
+				</value>
+		</Operation>
+		
+		<!-- Patch vanilla plant cut to make it into Cut -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "PlantCutting"]/labelShort</xpath>
 			<value>
-				<naturalPriority>705</naturalPriority>
+				<labelShort>Cut</labelShort>
 			</value>
 		</Operation>
 		
-		
-		<!-- Growing is relevant to PlantCutting -->
-		
-		<Operation Class="PatchOperationSequence">
-			<success>Always</success>
-			<operations>
-				<li Class="PatchOperationTest">
-					<xpath>*/WorkTypeDef[defName = "PlantCutting"]/relevantSkills</xpath>
-					<success>Invert</success>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/WorkTypeDef[defName = "PlantCutting"]</xpath>
-					<value>
-						<relevantSkills/>
-					</value>
-				</li>
-			</operations>
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "PlantCutting"]/naturalPriority</xpath>
+				<value>
+					<naturalPriority>695</naturalPriority>
+				</value>
 		</Operation>
-
-		<Operation Class="PatchOperationAdd">
-			<xpath>*/WorkTypeDef[defName = "PlantCutting"]/relevantSkills</xpath>
+		
+		<!-- Patch vanilla Bed rest to make it into Rest -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "PatientBedRest"]/labelShort</xpath>
 			<value>
-				<li>Growing</li>
+				<labelShort>Rest</labelShort>
+			</value>
+		</Operation>
+		
+		<!-- Patch vanilla Research to make it into Tech -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Research"]/labelShort</xpath>
+			<value>
+				<labelShort>Tech</labelShort>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Research"]/gerundLabel</xpath>
+			<value>
+				<gerundLabel>Research technology</gerundLabel>
+			</value>
+		</Operation>
+		
+		<!-- Patch vanilla Firefight to make it into Fire -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>*/WorkTypeDef[defName = "Firefighter"]/labelShort</xpath>
+			<value>
+				<labelShort>Fire</labelShort>
 			</value>
 		</Operation>
 		

@@ -72,38 +72,6 @@
 		<gerund>visiting</gerund>
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
-
-	<!-- Feeding -->	
-	
-	<WorkGiverDef>
-		<defName>JS_FeederFeedHumanlikes</defName>
-		<label>feed patients</label>
-		<giverClass>WorkGiver_FeedPatient</giverClass>
-		<workType>Feeding</workType>
-		<verb>feed</verb>
-		<gerund>feeding</gerund>
-		<priorityInType>60</priorityInType>
-		<requiredCapacities>
-			<li>Manipulation</li>
-		</requiredCapacities>
-		<prioritizeSustains>true</prioritizeSustains>
-		<feedHumanlikesOnly>true</feedHumanlikesOnly>
-	</WorkGiverDef>
-
-	<WorkGiverDef>
-		<defName>JS_FeederFeedAnimals</defName>
-		<label>feed animals</label>
-		<giverClass>WorkGiver_FeedPatient</giverClass>
-		<workType>Feeding</workType>
-		<verb>feed</verb>
-		<gerund>feeding</gerund>
-		<priorityInType>30</priorityInType>
-		<requiredCapacities>
-			<li>Manipulation</li>
-		</requiredCapacities>
-		<prioritizeSustains>true</prioritizeSustains>
-		<feedAnimalsOnly>true</feedAnimalsOnly>
-	</WorkGiverDef>	
 	
 	<!-- Butchering -->
 	
@@ -167,13 +135,13 @@
 		</requiredCapacities>
 	</WorkGiverDef>
 	
-	<!-- Demolition -->	
+	<!-- Demolishing -->	
 	
 	<WorkGiverDef>
 		<defName>JS_DemoRemoveRoofs</defName>
 		<label>remove roofs</label>
 		<giverClass>WorkGiver_RemoveRoof</giverClass>
-		<workType>Demolition</workType>
+		<workType>Demolishing</workType>
 		<priorityInType>60</priorityInType>
 		<verb>remove roof</verb>
 		<gerund>removing roof</gerund>
@@ -188,7 +156,7 @@
 		<defName>JS_DemoDeconstruct</defName>
 		<label>deconstruct structures</label>
 		<giverClass>WorkGiver_Deconstruct</giverClass>
-		<workType>Demolition</workType>
+		<workType>Demolishing</workType>
 		<priorityInType>20</priorityInType>
 		<verb>deconstruct</verb>
 		<gerund>deconstructing</gerund>
@@ -201,7 +169,7 @@
 		<defName>JS_DemoUninstall</defName>
 		<label>uninstall structures</label>
 		<giverClass>WorkGiver_Uninstall</giverClass>
-		<workType>Demolition</workType>
+		<workType>Demolishing</workType>
 		<priorityInType>19</priorityInType>
 		<verb>uninstall</verb>
 		<gerund>uninstalling</gerund>
@@ -214,7 +182,7 @@
 		<defName>JS_DemoConstructRemoveFloors</defName>
 		<label>remove floors</label>
 		<giverClass>WorkGiver_ConstructRemoveFloor</giverClass>
-		<workType>Demolition</workType>
+		<workType>Demolishing</workType>
 		<priorityInType>10</priorityInType>
 		<verb>remove floor</verb>
 		<gerund>removing floor</gerund>
@@ -225,59 +193,62 @@
 		</requiredCapacities>
 	</WorkGiverDef>
 	
-	<!-- Preparing -->	
+	<!-- Supplying -->	
 
 	<WorkGiverDef>
-		<defName>JS_PrepareFrames</defName>
-		<label>deliver resources to frames</label>
+		<defName>JS_SupplyFrames</defName>
+		<label>supply resources to frames</label>
 		<giverClass>WorkGiver_ConstructDeliverResourcesToFrames</giverClass>
-		<workType>Preparing</workType>
+		<workType>Supplying</workType>
 		<priorityInType>90</priorityInType>
-		<verb>deliver resources</verb>
-		<gerund>delivering resources to</gerund>
+		<verb>supply resources</verb>
+		<gerund>Supplying resources to</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByNonColonists>true</canBeDoneByNonColonists>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+		<equivalenceGroup>AssistInConstruction</equivalenceGroup>
 	</WorkGiverDef>
 
 	<WorkGiverDef>
-		<defName>JS_PrepareBlueprints</defName>
-		<label>deliver resources to blueprints</label>
+		<defName>JS_SupplyBlueprints</defName>
+		<label>supply resources to blueprints</label>
 		<giverClass>WorkGiver_ConstructDeliverResourcesToBlueprints</giverClass>
-		<workType>Preparing</workType>
+		<workType>Supplying</workType>
 		<priorityInType>80</priorityInType>
-		<verb>deliver resources</verb>
-		<gerund>delivering resources to</gerund>
+		<verb>supply resources</verb>
+		<gerund>supplying resources to</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
-		<canBeDoneByNonColonists>true</canBeDoneByNonColonists>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+		<equivalenceGroup>AssistInConstruction</equivalenceGroup>
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>JS_PrepareUninstall</defName>
-		<label>uninstall structures</label>
+		<defName>JS_SupplyUninstall</defName>
+		<label>supply structures</label>
 		<giverClass>WorkGiver_Uninstall</giverClass>
 		<workType>Construction</workType>
 		<priorityInType>19</priorityInType>
-		<verb>uninstall</verb>
-		<gerund>uninstalling</gerund>
+		<verb>supply</verb>
+		<gerund>supplying</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
+		<equivalenceGroup>AssistInConstruction</equivalenceGroup>
 	</WorkGiverDef>
 	
-	<!-- Mortician -->	
+	<!-- Mortifying -->	
 	
 	<WorkGiverDef>
-		<defName>JS_MorticianHaulCorpses</defName>
+		<defName>JS_MortifyingHaulCorpses</defName>
 		<label>haul corpses</label>
 		<giverClass>WorkGiver_HaulCorpses</giverClass>
-		<workType>Mortician</workType>
+		<workType>Mortifying</workType>
 		<verb>haul</verb>
 		<gerund>hauling</gerund>
 		<priorityInType>80</priorityInType>

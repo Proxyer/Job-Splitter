@@ -24,16 +24,6 @@
   <JS_NurseVisitSickPawn.gerund>を見舞いする</JS_NurseVisitSickPawn.gerund>
 
 
-  <!-- Feeding -->
-
-  <JS_FeederFeedHumanlikes.label>患者に食事を運ぶ</JS_FeederFeedHumanlikes.label>
-  <JS_FeederFeedHumanlikes.verb>に食事を運ぶ</JS_FeederFeedHumanlikes.verb>
-  <JS_FeederFeedHumanlikes.gerund>に食事を運ぶ</JS_FeederFeedHumanlikes.gerund>
-
-  <JS_FeederFeedAnimals.label>動物に給餌する</JS_FeederFeedAnimals.label>
-  <JS_FeederFeedAnimals.verb>を給餌する</JS_FeederFeedAnimals.verb>
-  <JS_FeederFeedAnimals.gerund>を給餌する</JS_FeederFeedAnimals.gerund>
-
 
   <!-- Butchering -->
   
@@ -74,24 +64,24 @@
   <JS_DemoConstructRemoveFloors.verb>を剥ぐ</JS_DemoConstructRemoveFloors.verb>
   <JS_DemoConstructRemoveFloors.gerund>を剥ぐ</JS_DemoConstructRemoveFloors.gerund>
   
-  <!-- Preparing -->
+  <!-- Supplying -->
 
-  <JS_PrepareFrames.label>材料を骨組みに運ぶ</JS_PrepareFrames.label>
-  <JS_PrepareFrames.verb>材料を届ける</JS_PrepareFrames.verb>
-  <JS_PrepareFrames.gerund>を従事する</JS_PrepareFrames.gerund>
+  <JS_SupplyFrames.label>材料を骨組みに運ぶ</JS_SupplyFrames.label>
+  <JS_SupplyFrames.verb>材料を届ける</JS_SupplyFrames.verb>
+  <JS_SupplyFrames.gerund>を従事する</JS_SupplyFrames.gerund>
 
-  <JS_PrepareBlueprints.label>設計に取り掛かる</JS_PrepareBlueprints.label>
-  <JS_PrepareBlueprints.verb>に取りかかる</JS_PrepareBlueprints.verb>
-  <JS_PrepareBlueprints.gerund>を従事する</JS_PrepareBlueprints.gerund>
+  <JS_SupplyBlueprints.label>設計に取り掛かる</JS_SupplyBlueprints.label>
+  <JS_SupplyBlueprints.verb>に取りかかる</JS_SupplyBlueprints.verb>
+  <JS_SupplyBlueprints.gerund>を従事する</JS_SupplyBlueprints.gerund>
   
-  <JS_PrepareUninstall.label>アンインストール</JS_PrepareUninstall.label>
-  <JS_PrepareUninstall.verb>をアンインストール</JS_PrepareUninstall.verb>
-  <JS_PrepareUninstall.gerund>をアンインストールする</JS_PrepareUninstall.gerund>
+  <JS_SupplyUninstall.label>アンインストール</JS_SupplyUninstall.label>
+  <JS_SupplyUninstall.verb>をアンインストール</JS_SupplyUninstall.verb>
+  <JS_SupplyUninstall.gerund>をアンインストールする</JS_SupplyUninstall.gerund>
   
-  <!-- Mortician -->
+  <!-- Mortifying -->
   
-  <JS_MorticianHaulCorpses.label>運搬</JS_MorticianHaulCorpses.label>
-  <JS_MorticianHaulCorpses.verb>を運ぶ</JS_MorticianHaulCorpses.verb>
-  <JS_MorticianHaulCorpses.gerund>を運搬する</JS_MorticianHaulCorpses.gerund>
+  <JS_MortifyingHaulCorpses.label>運搬</JS_MortifyingHaulCorpses.label>
+  <JS_MortifyingHaulCorpses.verb>を運ぶ</JS_MortifyingHaulCorpses.verb>
+  <JS_MortifyingHaulCorpses.gerund>を運搬する</JS_MortifyingHaulCorpses.gerund>
 
 </LanguageData>

@@ -4,14 +4,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/RecipeDef[defName = "BurnApparel"]/requiredGiverWorkType</xpath>
 		<value>
-			<requiredGiverWorkType>Mortician</requiredGiverWorkType>
+			<requiredGiverWorkType>Mortifying</requiredGiverWorkType>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/RecipeDef[defName = "BurnDrugs"]/requiredGiverWorkType</xpath>
 		<value>
-			<requiredGiverWorkType>Mortician</requiredGiverWorkType>
+			<requiredGiverWorkType>Mortifying</requiredGiverWorkType>
 		</value>
 	</Operation>
 </Patch>

@@ -23,31 +23,13 @@
 			<workType>Surgeon</workType>
 		</value>
 	</Operation>
-
-	<!-- Feeding -->
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/WorkGiverDef[defName = "FeedPrisoner"]/workType</xpath>
-		<value>
-			<workType>Feeding</workType>
-		</value>
-	</Operation>
 	
 	<!-- Rearming -->
-
+	
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/WorkGiverDef[defName = "RearmTraps"]/workType</xpath>
+		<xpath>*/WorkGiverDef[defName = "RearmTurrets"]/workType</xpath>
 		<value>
 			<workType>Rearming</workType>
-		</value>
-	</Operation>
-
-	<!-- Refueling -->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/WorkGiverDef[defName = "Refuel"]/workType</xpath>
-		<value>
-			<workType>Refueling</workType>
 		</value>
 	</Operation>
 	
@@ -135,12 +117,12 @@
 		</value>
 	</Operation>
 
-	<!-- Assembling -->	
+	<!-- Fabricating -->	
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/WorkGiverDef[defName = "DoBillsComponentAssemblyBench"]/workType</xpath>
+		<xpath>*/WorkGiverDef[defName = "DoBillsFabricationBench"]/workType</xpath>
 		<value>
-			<workType>Assembling</workType>
+			<workType>Fabricating</workType>
 		</value>
 	</Operation>
 	
@@ -158,7 +140,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/WorkGiverDef[defName = "DoBillsStonecut"]/workType</xpath>
 		<value>
-			<workType>Stonecutting</workType>
+			<workType>StoneCutting</workType>
 		</value>
 	</Operation>
 	
@@ -194,33 +176,26 @@
 		</value>
 	</Operation>
 
-	<!-- Mortician -->
+	<!-- Mortifying -->
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/WorkGiverDef[defName = "Strip"]/workType</xpath>
 		<value>
-			<workType>Mortician</workType>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/WorkGiverDef[defName = "BuryCorpses"]/workType</xpath>
-		<value>
-			<workType>Mortician</workType>
+			<workType>Mortifying</workType>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/WorkGiverDef[defName = "DoBillsCremate"]/workType</xpath>
 		<value>
-			<workType>Mortician</workType>
+			<workType>Mortifying</workType>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>*/WorkGiverDef[defName = "DoBillsHaulCampfire"]/workType</xpath>
 		<value>
-			<workType>Mortician</workType>
+			<workType>Mortifying</workType>
 		</value>
 	</Operation>	
 	

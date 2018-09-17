@@ -21,16 +21,6 @@
   <Nursing.verb>护理</Nursing.verb>
 
 
-  <!-- Feeding -->
-
-  <Feeding.label>喂食</Feeding.label>
-  <Feeding.description>将食物带给囚犯和卧病在床的病人。</Feeding.description>
-  <Feeding.labelShort>喂食</Feeding.labelShort>
-  <Feeding.pawnLabel>喂食者</Feeding.pawnLabel>
-  <Feeding.gerundLabel>喂食中</Feeding.gerundLabel>
-  <Feeding.verb>喂食</Feeding.verb>
-
-
   <!-- Rearming -->
 
   <Rearming.label>重置陷阱</Rearming.label>
@@ -39,16 +29,6 @@
   <Rearming.pawnLabel>陷阱重置人</Rearming.pawnLabel>
   <Rearming.gerundLabel>重置陷阱中</Rearming.gerundLabel>
   <Rearming.verb>重置</Rearming.verb>
-
-
-  <!-- Refueling -->
-
-  <Refueling.label>补充燃料</Refueling.label>
-  <Refueling.description>为耗尽燃料的物品添加燃料。</Refueling.description>
-  <Refueling.labelShort>补充燃料</Refueling.labelShort>
-  <Refueling.pawnLabel>补充燃料者</Refueling.pawnLabel>
-  <Refueling.gerundLabel>补充燃料中</Refueling.gerundLabel>
-  <Refueling.verb>补充燃料</Refueling.verb>
 
 
   <!-- Taming -->
@@ -101,14 +81,14 @@
   <Repairing.verb>修理</Repairing.verb>
 
 
-  <!-- Demolition -->
+  <!-- Demolishing -->
 
-  <Demolition.label>拆除</Demolition.label>
-  <Demolition.description>拆除或卸载建筑和物品。</Demolition.description>
-  <Demolition.labelShort>拆除</Demolition.labelShort>
-  <Demolition.pawnLabel>拆迁队</Demolition.pawnLabel>
-  <Demolition.gerundLabel>拆迁中</Demolition.gerundLabel>
-  <Demolition.verb>拆除</Demolition.verb>
+  <Demolishing.label>拆除</Demolishing.label>
+  <Demolishing.description>拆除或卸载建筑和物品。</Demolishing.description>
+  <Demolishing.labelShort>拆除</Demolishing.labelShort>
+  <Demolishing.pawnLabel>拆迁队</Demolishing.pawnLabel>
+  <Demolishing.gerundLabel>拆迁中</Demolishing.gerundLabel>
+  <Demolishing.verb>拆除</Demolishing.verb>
 
 
   <!-- Harvesting -->
@@ -141,14 +121,14 @@
   <Drugs.verb>制药</Drugs.verb>
 
 
-  <!-- Assembling -->
+  <!-- Fabricating -->
 
-  <Assembling.label>组装</Assembling.label>
-  <Assembling.description>在零件装配台上组装零件。</Assembling.description>
-  <Assembling.labelShort>组装。</Assembling.labelShort>
-  <Assembling.pawnLabel>工匠</Assembling.pawnLabel>
-  <Assembling.gerundLabel>组装中</Assembling.gerundLabel>
-  <Assembling.verb>组装</Assembling.verb>
+  <Fabricating.label>组装</Fabricating.label>
+  <Fabricating.description>在零件装配台上组装零件。</Fabricating.description>
+  <Fabricating.labelShort>组装。</Fabricating.labelShort>
+  <Fabricating.pawnLabel>工匠</Fabricating.pawnLabel>
+  <Fabricating.gerundLabel>组装中</Fabricating.gerundLabel>
+  <Fabricating.verb>组装</Fabricating.verb>
 
 
   <!-- Refine -->
@@ -161,14 +141,14 @@
   <Refining.verb>精炼</Refining.verb>
 
 
-  <!-- Stonecutting -->
+  <!-- StoneCutting -->
 
-  <Stonecutting.label>切割石砖</Stonecutting.label>
-  <Stonecutting.description>将石块切成砖块。</Stonecutting.description>
-  <Stonecutting.labelShort>切割石砖</Stonecutting.labelShort>
-  <Stonecutting.pawnLabel>切石工</Stonecutting.pawnLabel>
-  <Stonecutting.gerundLabel>切割石砖中</Stonecutting.gerundLabel>
-  <Stonecutting.verb>切割石砖</Stonecutting.verb>
+  <StoneCutting.label>切割石砖</StoneCutting.label>
+  <StoneCutting.description>将石块切成砖块。</StoneCutting.description>
+  <StoneCutting.labelShort>切割石砖</StoneCutting.labelShort>
+  <StoneCutting.pawnLabel>切石工</StoneCutting.pawnLabel>
+  <StoneCutting.gerundLabel>切割石砖中</StoneCutting.gerundLabel>
+  <StoneCutting.verb>切割石砖</StoneCutting.verb>
 
 
   <!-- Smelting -->
@@ -181,14 +161,14 @@
   <Smelting.verb>熔炼</Smelting.verb>
 
 
-  <!-- Preparing -->
+  <!-- Supplying -->
 
-  <Preparing.label>准备</Preparing.label>
-  <Preparing.description>Haul building materials to blueprints and unfinished buildings.</Preparing.description>
-  <Preparing.labelShort>准备</Preparing.labelShort>
-  <Preparing.pawnLabel>跑腿的</Preparing.pawnLabel>
-  <Preparing.gerundLabel>跑腿中</Preparing.gerundLabel>
-  <Preparing.verb>取货</Preparing.verb>
+  <Supplying.label>准备</Supplying.label>
+  <Supplying.description>Haul building materials to blueprints and unfinished buildings.</Supplying.description>
+  <Supplying.labelShort>准备</Supplying.labelShort>
+  <Supplying.pawnLabel>跑腿的</Supplying.pawnLabel>
+  <Supplying.gerundLabel>跑腿中</Supplying.gerundLabel>
+  <Supplying.verb>取货</Supplying.verb>
 
 
   <!-- Loading -->
@@ -201,14 +181,14 @@
   <Loading.verb>装卸</Loading.verb>
 
 
-  <!-- Mortican -->
+  <!-- Mortifying -->
 
-  <Mortician.label>殡仪</Mortician.label>
-  <Mortician.description>焚化或埋葬尸体。</Mortician.description>
-  <Mortician.labelShort>殡仪</Mortician.labelShort>
-  <Mortician.pawnLabel>殡仪员</Mortician.pawnLabel>
-  <Mortician.gerundLabel>超度</Mortician.gerundLabel>
-  <Mortician.verb>超度</Mortician.verb>
+  <Mortifying.label>殡仪</Mortifying.label>
+  <Mortifying.description>焚化或埋葬尸体。</Mortifying.description>
+  <Mortifying.labelShort>殡仪</Mortifying.labelShort>
+  <Mortifying.pawnLabel>殡仪员</Mortifying.pawnLabel>
+  <Mortifying.gerundLabel>超度</Mortifying.gerundLabel>
+  <Mortifying.verb>超度</Mortifying.verb>
 
 
 </LanguageData>

@@ -24,17 +24,6 @@
   <JS_NurseVisitSickPawn.gerund>看望</JS_NurseVisitSickPawn.gerund>
 
 
-  <!-- Feeding -->
-
-  <JS_FeederFeedHumanlikes.label>餵食病人</JS_FeederFeedHumanlikes.label>
-  <JS_FeederFeedHumanlikes.verb>餵食</JS_FeederFeedHumanlikes.verb>
-  <JS_FeederFeedHumanlikes.gerund>餵食</JS_FeederFeedHumanlikes.gerund>
-
-  <JS_FeederFeedAnimals.label>餵食動物</JS_FeederFeedAnimals.label>
-  <JS_FeederFeedAnimals.verb>餵食</JS_FeederFeedAnimals.verb>
-  <JS_FeederFeedAnimals.gerund>餵食</JS_FeederFeedAnimals.gerund>
-
-
   <!-- Butchering -->
   
   <JS_ButcherDoBillsButcherFlesh.label>butcher creatures</JS_ButcherDoBillsButcherFlesh.label>
@@ -76,26 +65,26 @@
   <JS_DemoConstructRemoveFloors.gerund>地板拆除</JS_DemoConstructRemoveFloors.gerund>
   
   
-  <!-- Preparing -->
+  <!-- Supplying -->
 
-  <JS_PrepareFrames.label>搬運材料至框架</JS_PrepareFrames.label>
-  <JS_PrepareFrames.verb>搬運</JS_PrepareFrames.verb>
-  <JS_PrepareFrames.gerund>搬運</JS_PrepareFrames.gerund>
+  <JS_SupplyFrames.label>搬運材料至框架</JS_SupplyFrames.label>
+  <JS_SupplyFrames.verb>搬運</JS_SupplyFrames.verb>
+  <JS_SupplyFrames.gerund>搬運</JS_SupplyFrames.gerund>
 
-  <JS_PrepareBlueprints.label>搬運材料至藍圖</JS_PrepareBlueprints.label>
-  <JS_PrepareBlueprints.verb>搬運</JS_PrepareBlueprints.verb>
-  <JS_PrepareBlueprints.gerund>搬運</JS_PrepareBlueprints.gerund>
+  <JS_SupplyBlueprints.label>搬運材料至藍圖</JS_SupplyBlueprints.label>
+  <JS_SupplyBlueprints.verb>搬運</JS_SupplyBlueprints.verb>
+  <JS_SupplyBlueprints.gerund>搬運</JS_SupplyBlueprints.gerund>
   
-  <JS_PrepareUninstall.label>打包</JS_PrepareUninstall.label>
-  <JS_PrepareUninstall.verb>打包</JS_PrepareUninstall.verb>
-  <JS_PrepareUninstall.gerund>打包</JS_PrepareUninstall.gerund>
+  <JS_SupplyUninstall.label>打包</JS_SupplyUninstall.label>
+  <JS_SupplyUninstall.verb>打包</JS_SupplyUninstall.verb>
+  <JS_SupplyUninstall.gerund>打包</JS_SupplyUninstall.gerund>
   
   
-  <!-- Mortician -->
+  <!-- Mortifying -->
 
-  <JS_MorticianHaulCorpses.label>運送屍體</JS_MorticianHaulCorpses.label>
-  <JS_MorticianHaulCorpses.verb>運送</JS_MorticianHaulCorpses.verb>
-  <JS_MorticianHaulCorpses.gerund>運送</JS_MorticianHaulCorpses.gerund>
+  <JS_MortifyingHaulCorpses.label>運送屍體</JS_MortifyingHaulCorpses.label>
+  <JS_MortifyingHaulCorpses.verb>運送</JS_MortifyingHaulCorpses.verb>
+  <JS_MortifyingHaulCorpses.gerund>運送</JS_MortifyingHaulCorpses.gerund>
 
 
 </LanguageData>

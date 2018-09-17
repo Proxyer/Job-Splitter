@@ -214,6 +214,7 @@
 				<altModNames>
 					<li>Omni Core Drill B17</li>
 					<li>Omni Core Drill B18</li>
+					<li>Omni Core Drill B19</li>
 				</altModNames>
 				<yourMod>Job Splitter</yourMod>
 				<customMessageSuccess>Job Splitter: Mod named "Omni Core Drill" detected, updating WorkGivers.</customMessageSuccess>
@@ -254,6 +255,7 @@
 				<altModNames>
 					<li>Drug Overhaul A18</li>
 					<li>Drug Overhaul B18</li>
+					<li>Drug Overhaul B19</li>
 				</altModNames>
 				<yourMod>Job Splitter</yourMod>
 				<customMessageSuccess>Job Splitter: Mod named "Drug Overhaul" detected, updating WorkGivers.</customMessageSuccess>

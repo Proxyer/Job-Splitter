@@ -19,7 +19,7 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>1</priority>
 						</li>
 						<li>
@@ -27,11 +27,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>2</priority>
-						</li>
-						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -46,17 +42,13 @@
 				<value>
 					<robotWorkTypes>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>1</priority>
 						</li>	
 						<li>
 							<workTypeDef>Rearming</workTypeDef>
 							<priority>2</priority>
 						</li>
-						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>2</priority>
-						</li>	
 						<li>
 							<workTypeDef>Cleaning</workTypeDef>
 							<priority>3</priority>
@@ -85,12 +77,8 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>1</priority>
-						</li>
-						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>2</priority>
 						</li>
 						<li>
 							<workTypeDef>Cleaning</workTypeDef>
@@ -101,7 +89,7 @@
 							<priority>3</priority>
 						</li>
 						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -113,7 +101,7 @@
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>4</priority>
 						</li>		
 						<li>
@@ -136,7 +124,7 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>2</priority>
 						</li>
 						<li>
@@ -154,10 +142,6 @@
 						<li>
 							<workTypeDef>Growing</workTypeDef>
 							<priority>3</priority>
-						</li>
-						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>4</priority>
 						</li>
 						<li>
 							<workTypeDef>Cleaning</workTypeDef>
@@ -191,7 +175,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -207,11 +191,11 @@
 							<priority>3</priority>
 						</li>
 						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>4</priority>
 						</li>
 					</robotWorkTypes>					
@@ -234,11 +218,11 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
-							<workTypeDef>Demolition</workTypeDef>
+							<workTypeDef>Demolishing</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -265,7 +249,7 @@
 				<value>
 					<robotWorkTypes>	
 						<li>
-							<workTypeDef>Demolition</workTypeDef>
+							<workTypeDef>Demolishing</workTypeDef>
 							<priority>1</priority>
 						</li>
 						<li>
@@ -273,7 +257,7 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>2</priority>
 						</li>
 						<li>
@@ -281,7 +265,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>2</priority>
 						</li>	
 						<li>
@@ -297,7 +281,7 @@
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>4</priority>
 						</li>	
 						<li>
@@ -324,7 +308,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>2</priority>
 						</li>
 						<li>
@@ -332,12 +316,8 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>2</priority>
-						</li>
-						<li>
-							<workTypeDef>Feeding</workTypeDef>
-							<priority>3</priority>
 						</li>
 						<li>
 							<workTypeDef>Drugs</workTypeDef>
@@ -371,7 +351,7 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Assembling</workTypeDef>
+							<workTypeDef>Fabricating</workTypeDef>
 							<priority>2</priority>
 						</li>
 						<li>
@@ -387,11 +367,11 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
-							<workTypeDef>Stonecutting</workTypeDef>
+							<workTypeDef>StoneCutting</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -399,11 +379,7 @@
 							<priority>3</priority>
 						</li>			
 						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>3</priority>
-						</li>
-						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -419,7 +395,7 @@
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>4</priority>
 						</li>
 					</robotWorkTypes>					
@@ -446,7 +422,7 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>1</priority>
 						</li>
 						<li>
@@ -454,11 +430,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>2</priority>
-						</li>
-						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -473,17 +445,13 @@
 				<value>
 					<robotWorkTypes>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>1</priority>
 						</li>	
 						<li>
 							<workTypeDef>Rearming</workTypeDef>
 							<priority>2</priority>
 						</li>
-						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>2</priority>
-						</li>	
 						<li>
 							<workTypeDef>Cleaning</workTypeDef>
 							<priority>3</priority>
@@ -504,7 +472,7 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Demolition</workTypeDef>
+							<workTypeDef>Demolishing</workTypeDef>
 							<priority>2</priority>
 						</li>
 						<li>
@@ -535,7 +503,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Assembling</workTypeDef>
+							<workTypeDef>Fabricating</workTypeDef>
 							<priority>2</priority>
 						</li>	
 						<li>
@@ -543,7 +511,7 @@
 							<priority>3</priority>
 						</li>
 						<li>
-							<workTypeDef>Stonecutting</workTypeDef>
+							<workTypeDef>StoneCutting</workTypeDef>
 							<priority>4</priority>
 						</li>
 						<li>
@@ -647,7 +615,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Flicker</workTypeDef>
+							<workTypeDef>BasicWorker</workTypeDef>
 							<priority>2</priority>
 						</li>
 						<li>
@@ -699,7 +667,7 @@
 							<priority>3</priority>
 						</li>	
 						<li>
-							<workTypeDef>Assembling</workTypeDef>
+							<workTypeDef>Fabricating</workTypeDef>
 							<priority>3</priority>
 						</li>	
 						<li>
@@ -715,7 +683,7 @@
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Demolition</workTypeDef>
+							<workTypeDef>Demolishing</workTypeDef>
 							<priority>4</priority>
 						</li>
 						<li>
@@ -723,7 +691,7 @@
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Stonecutting</workTypeDef>
+							<workTypeDef>StoneCutting</workTypeDef>
 							<priority>4</priority>
 						</li>
 						<li>
@@ -735,11 +703,7 @@
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>4</priority>
-						</li>
-						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>4</priority>
 						</li>
 						<li>
@@ -747,11 +711,7 @@
 							<priority>4</priority>
 						</li>
 						<li>
-							<workTypeDef>Feeding</workTypeDef>
-							<priority>4</priority>
-						</li>
-						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>4</priority>
 						</li>
 						<li>
@@ -790,7 +750,7 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Demolition</workTypeDef>
+							<workTypeDef>Demolishing</workTypeDef>
 							<priority>2</priority>
 						</li>
 						<li>
@@ -821,7 +781,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Assembling</workTypeDef>
+							<workTypeDef>Fabricating</workTypeDef>
 							<priority>2</priority>
 						</li>	
 						<li>
@@ -829,7 +789,7 @@
 							<priority>3</priority>
 						</li>
 						<li>
-							<workTypeDef>Stonecutting</workTypeDef>
+							<workTypeDef>StoneCutting</workTypeDef>
 							<priority>4</priority>
 						</li>
 						<li>
@@ -955,7 +915,7 @@
 							<priority>2</priority>
 						</li>	
 						<li>
-							<workTypeDef>Assembling</workTypeDef>
+							<workTypeDef>Fabricating</workTypeDef>
 							<priority>2</priority>
 						</li>	
 						<li>
@@ -963,7 +923,7 @@
 							<priority>3</priority>
 						</li>
 						<li>
-							<workTypeDef>Stonecutting</workTypeDef>
+							<workTypeDef>StoneCutting</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -1001,7 +961,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Demolition</workTypeDef>
+							<workTypeDef>Demolishing</workTypeDef>
 							<priority>3</priority>
 						</li>
 					</robotWorkTypes>
@@ -1028,19 +988,15 @@
 							<priority>1</priority>
 						</li>
 						<li>
-							<workTypeDef>Preparing</workTypeDef>
+							<workTypeDef>Supplying</workTypeDef>
 							<priority>1</priority>
 						</li>
 						<li>
 							<workTypeDef>Rearming</workTypeDef>
 							<priority>2</priority>
-						</li>
-						<li>
-							<workTypeDef>Refueling</workTypeDef>
-							<priority>2</priority>
 						</li>				
 						<li>
-							<workTypeDef>Mortician</workTypeDef>
+							<workTypeDef>Mortifying</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>
@@ -1141,7 +1097,7 @@
 							<priority>2</priority>
 						</li>
 						<li>
-							<workTypeDef>Demolition</workTypeDef>
+							<workTypeDef>Demolishing</workTypeDef>
 							<priority>3</priority>
 						</li>
 						<li>

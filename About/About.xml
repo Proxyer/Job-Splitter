@@ -2,8 +2,8 @@
 <ModMetaData>
   <name>Job Splitter</name>
   <author>Fuglypump</author>
-  <targetVersion>0.18.1722</targetVersion>
-  <description>Job Splitter [B18]
+  <targetVersion>0.19.1987</targetVersion>
+  <description>Job Splitter
 
 Load Order: Put this mod at the VERY BOTTOM of your load order, this mod has a lot of patch operations that interact with parts of other mods that most likely require load order to function properly.
 

@@ -21,16 +21,6 @@
   <Nursing.verb>照顧</Nursing.verb>
 
 
-  <!-- Feeding -->
-
-  <Feeding.label>送餐</Feeding.label>
-  <Feeding.description>送餐員負責將食物帶給俘虜和病患。</Feeding.description>
-  <Feeding.labelShort>送餐員</Feeding.labelShort>
-  <Feeding.pawnLabel>送餐員</Feeding.pawnLabel>
-  <Feeding.gerundLabel>送餐</Feeding.gerundLabel>
-  <Feeding.verb>送餐</Feeding.verb>
-
-
   <!-- Rearming -->
 
   <Rearming.label>重置陷阱</Rearming.label>
@@ -39,16 +29,6 @@
   <Rearming.pawnLabel>陷阱重置員</Rearming.pawnLabel>
   <Rearming.gerundLabel>重置陷阱</Rearming.gerundLabel>
   <Rearming.verb>重置</Rearming.verb>
-
-
-  <!-- Refueling -->
-
-  <Refueling.label>補充燃料</Refueling.label>
-  <Refueling.description>加油員會為已耗盡燃料的裝置補充燃料。</Refueling.description>
-  <Refueling.labelShort>加油員</Refueling.labelShort>
-  <Refueling.pawnLabel>加油員</Refueling.pawnLabel>
-  <Refueling.gerundLabel>補充燃料</Refueling.gerundLabel>
-  <Refueling.verb>補充燃料</Refueling.verb>
 
 
   <!-- Taming -->
@@ -71,14 +51,14 @@
   <Training.verb>訓練</Training.verb>
 
 
-  <!-- Butcher -->
+  <!-- Butcheringing -->
 
-  <Butcher.label>屠宰</Butcher.label>
-  <Butcher.description>屠夫專門屠宰屍體和製作飼料。</Butcher.description>
-  <Butcher.labelShort>屠夫</Butcher.labelShort>
-  <Butcher.pawnLabel>屠夫</Butcher.pawnLabel>
-  <Butcher.gerundLabel>屠宰</Butcher.gerundLabel>
-  <Butcher.verb>屠宰</Butcher.verb>
+  <Butcheringing.label>屠宰</Butchering.label>
+  <Butcheringing.description>屠夫專門屠宰屍體和製作飼料。</Butchering.description>
+  <Butchering.labelShort>屠夫</Butchering.labelShort>
+  <Butchering.pawnLabel>屠夫</Butchering.pawnLabel>
+  <Butchering.gerundLabel>屠宰</Butchering.gerundLabel>
+  <Butchering.verb>屠宰</Butchering.verb>
 
 
   <!-- Brewing -->
@@ -101,14 +81,14 @@
   <Repairing.verb>修理</Repairing.verb>
 
 
-  <!-- Demolition -->
+  <!-- Demolishing-->
 
-  <Demolition.label>拆除</Demolition.label>
-  <Demolition.description>拆遷工人專門負責拆卸建築和物品。</Demolition.description>
-  <Demolition.labelShort>拆遷工人</Demolition.labelShort>
-  <Demolition.pawnLabel>拆遷工人</Demolition.pawnLabel>
-  <Demolition.gerundLabel>拆遷</Demolition.gerundLabel>
-  <Demolition.verb>拆除</Demolition.verb>
+  <Demolishing.label>拆除</Demolishing.label>
+  <Demolishing.description>拆遷工人專門負責拆卸建築和物品。</Demolishing.description>
+  <Demolishing.labelShort>拆遷工人</Demolishing.labelShort>
+  <Demolishing.pawnLabel>拆遷工人</Demolishing.pawnLabel>
+  <Demolishing.gerundLabel>拆遷</Demolishing.gerundLabel>
+  <Demolishing.verb>拆除</Demolishing.verb>
 
 
   <!-- Harvesting -->
@@ -141,14 +121,14 @@
   <Drugs.verb>製藥</Drugs.verb>
 
 
-  <!-- Assemble -->
+  <!-- Fabricating -->
 
-  <Assemble.label>組裝</Assemble.label>
-  <Assemble.description>組裝技工會在電子零件生產台上組裝零件。</Assemble.description>
-  <Assemble.labelShort>組裝技工</Assemble.labelShort>
-  <Assemble.pawnLabel>組裝技工</Assemble.pawnLabel>
-  <Assemble.gerundLabel>組裝</Assemble.gerundLabel>
-  <Assemble.verb>組裝</Assemble.verb>
+  <Fabricating.label>組裝</Fabricating.label>
+  <Fabricating.description>組裝技工會在電子零件生產台上組裝零件。</Fabricating.description>
+  <Fabricating.labelShort>組裝技工</Fabricating.labelShort>
+  <Fabricating.pawnLabel>組裝技工</Fabricating.pawnLabel>
+  <Fabricating.gerundLabel>組裝</Fabricating.gerundLabel>
+  <Fabricating.verb>組裝</Fabricating.verb>
 
 
   <!-- Refine -->
@@ -161,14 +141,14 @@
   <Refining.verb>精煉</Refining.verb>
 
 
-  <!-- Stonecutting -->
+  <!-- StoneCutting -->
 
-  <Stonecutting.label>石材加工</Stonecutting.label>
-  <Stonecutting.description>切石工會將石塊切成可用的磚塊。</Stonecutting.description>
-  <Stonecutting.labelShort>切石工</Stonecutting.labelShort>
-  <Stonecutting.pawnLabel>切石工</Stonecutting.pawnLabel>
-  <Stonecutting.gerundLabel>石材加工</Stonecutting.gerundLabel>
-  <Stonecutting.verb>石材加工</Stonecutting.verb>
+  <StoneCutting.label>石材加工</StoneCutting.label>
+  <StoneCutting.description>切石工會將石塊切成可用的磚塊。</StoneCutting.description>
+  <StoneCutting.labelShort>切石工</StoneCutting.labelShort>
+  <StoneCutting.pawnLabel>切石工</StoneCutting.pawnLabel>
+  <StoneCutting.gerundLabel>石材加工</StoneCutting.gerundLabel>
+  <StoneCutting.verb>石材加工</StoneCutting.verb>
 
 
   <!-- Smelting -->
@@ -181,14 +161,14 @@
   <Smelting.verb>熔煉</Smelting.verb>
 
 
-  <!-- Preparing -->
+  <!-- Supplying -->
 
-  <Preparing.label>搬運</Preparing.label>
-  <Preparing.description>苦力會把建築材料運載至藍圖或工程處。</Preparing.description>
-  <Preparing.labelShort>苦力</Preparing.labelShort>
-  <Preparing.pawnLabel>苦力</Preparing.pawnLabel>
-  <Preparing.gerundLabel>搬運</Preparing.gerundLabel>
-  <Preparing.verb>搬運</Preparing.verb>
+  <Supplying.label>搬運</Supplying.label>
+  <Supplying.description>苦力會把建築材料運載至藍圖或工程處。</Supplying.description>
+  <Supplying.labelShort>苦力</Supplying.labelShort>
+  <Supplying.pawnLabel>苦力</Supplying.pawnLabel>
+  <Supplying.gerundLabel>搬運</Supplying.gerundLabel>
+  <Supplying.verb>搬運</Supplying.verb>
 
 
   <!-- Loading -->
@@ -201,13 +181,13 @@
   <Loading.verb>裝卸於</Loading.verb>
 
 
-  <!-- Mortican -->
+  <!-- Mortifying -->
 
-  <Mortician.label>殯儀</Mortician.label>
-  <Mortician.description>殯儀員專門負責焚化或埋葬屍體。</Mortician.description>
-  <Mortician.labelShort>殯儀員</Mortician.labelShort>
-  <Mortician.pawnLabel>殯儀員</Mortician.pawnLabel>
-  <Mortician.gerundLabel>殯儀</Mortician.gerundLabel>
-  <Mortician.verb>殯儀</Mortician.verb>
+  <Mortifying.label>殯儀</Mortifying.label>
+  <Mortifying.description>殯儀員專門負責焚化或埋葬屍體。</Mortifying.description>
+  <Mortifying.labelShort>殯儀員</Mortifying.labelShort>
+  <Mortifying.pawnLabel>殯儀員</Mortifying.pawnLabel>
+  <Mortifying.gerundLabel>殯儀</Mortifying.gerundLabel>
+  <Mortifying.verb>殯儀</Mortifying.verb>
 
 </LanguageData>
