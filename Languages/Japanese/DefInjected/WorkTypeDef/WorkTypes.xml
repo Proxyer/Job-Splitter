@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Surgeon -->
@@ -71,6 +71,16 @@
   <Brewing.verb>醸造</Brewing.verb>
 
 
+  <!-- Demolishing -->
+
+  <Demolishing.label>解体</Demolishing.label>
+  <Demolishing.description>解体屋は建物や物品を取り外したり解体します。</Demolishing.description>
+  <Demolishing.labelShort>解体</Demolishing.labelShort>
+  <Demolishing.pawnLabel>解体屋</Demolishing.pawnLabel>
+  <Demolishing.gerundLabel>解体</Demolishing.gerundLabel>
+  <Demolishing.verb>解体</Demolishing.verb>
+
+
   <!-- Repairing -->
 
   <Repairing.label>修理</Repairing.label>
@@ -81,14 +91,14 @@
   <Repairing.verb>修理</Repairing.verb>
 
 
-  <!-- Demolishing -->
+  <!-- Supplying -->
 
-  <Demolishing.label>解体</Demolishing.label>
-  <Demolishing.description>解体屋は建物や物品を取り外したり解体します。</Demolishing.description>
-  <Demolishing.labelShort>解体</Demolishing.labelShort>
-  <Demolishing.pawnLabel>解体屋</Demolishing.pawnLabel>
-  <Demolishing.gerundLabel>解体</Demolishing.gerundLabel>
-  <Demolishing.verb>解体</Demolishing.verb>
+  <Supplying.label>配送</Supplying.label>
+  <Supplying.description>配達人は青写真と未完成の建物へ建築材料を運びます。</Supplying.description>
+  <Supplying.labelShort>配送</Supplying.labelShort>
+  <Supplying.pawnLabel>配達人</Supplying.pawnLabel>
+  <Supplying.gerundLabel>配送</Supplying.gerundLabel>
+  <Supplying.verb>配送</Supplying.verb>
 
 
   <!-- Harvesting -->
@@ -111,16 +121,6 @@
   <Drilling.verb>掘削</Drilling.verb>
 
 
-  <!-- Drugs -->
-
-  <Drugs.label>調薬</Drugs.label>
-  <Drugs.description>薬剤師は医薬品やドラッグを作成します。</Drugs.description>
-  <Drugs.labelShort>調薬</Drugs.labelShort>
-  <Drugs.pawnLabel>薬剤師</Drugs.pawnLabel>
-  <Drugs.gerundLabel>調薬</Drugs.gerundLabel>
-  <Drugs.verb>調薬</Drugs.verb>
-
-
   <!-- Fabricating -->
 
   <Fabricating.label>組立</Fabricating.label>
@@ -129,6 +129,16 @@
   <Fabricating.pawnLabel>組立工</Fabricating.pawnLabel>
   <Fabricating.gerundLabel>組立</Fabricating.gerundLabel>
   <Fabricating.verb>組立</Fabricating.verb>
+
+
+  <!-- Drug Production -->
+
+  <Drugs.label>調薬</Drugs.label>
+  <Drugs.description>薬剤師は医薬品やドラッグを作成します。</Drugs.description>
+  <Drugs.labelShort>調薬</Drugs.labelShort>
+  <Drugs.pawnLabel>薬剤師</Drugs.pawnLabel>
+  <Drugs.gerundLabel>調薬</Drugs.gerundLabel>
+  <Drugs.verb>調薬</Drugs.verb>
 
 
   <!-- Refine -->
@@ -159,16 +169,6 @@
   <Smelting.pawnLabel>製錬工</Smelting.pawnLabel>
   <Smelting.gerundLabel>金属抽出</Smelting.gerundLabel>
   <Smelting.verb>製錬</Smelting.verb>
-
-
-  <!-- Supplying -->
-
-  <Supplying.label>配送</Supplying.label>
-  <Supplying.description>配達人は青写真と未完成の建物へ建築材料を運びます。</Supplying.description>
-  <Supplying.labelShort>配送</Supplying.labelShort>
-  <Supplying.pawnLabel>配達人</Supplying.pawnLabel>
-  <Supplying.gerundLabel>配送</Supplying.gerundLabel>
-  <Supplying.verb>配送</Supplying.verb>
 
 
   <!-- Loading -->
