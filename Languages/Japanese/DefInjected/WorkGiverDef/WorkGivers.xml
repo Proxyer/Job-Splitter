@@ -24,6 +24,13 @@
   <JS_NurseVisitSickPawn.gerund>を見舞いする</JS_NurseVisitSickPawn.gerund>
 
 
+  <!-- Basic -->
+
+  <JS_Refuel.label>補給可能な設備に\n燃料を補給する</JS_Refuel.label>
+  <JS_Refuel.verb>を補給する</JS_Refuel.verb>
+  <JS_Refuel.gerund>を補給している</JS_Refuel.gerund>
+
+
   <!-- Butchering -->
 
   <JS_ButcherSlaughter.label>動物を屠殺</JS_ButcherSlaughter.label>
